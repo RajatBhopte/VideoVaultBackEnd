@@ -5,14 +5,6 @@
 This is a ``YOUTUBE + TWITTER`` backend project that covers allmost the functionalities of youtube 
 and also combines the tweet functionality from twitter into it. Find more about his project in the documentaion below.
 
-## Important links
-
-| Content            | Link                                                                        |
-| -------------------| ----------------------------------------------------------------------------|
-| API Documentation  | [click here](https://documenter.getpostman.com/view/28570926/2s9YsNdVwW)    |
-| Model              | [click here ](https://app.eraser.io/workspace/YtPqZ1VogxGy1jzIDkzj)         |
-
-## Features
 
 ### User Management:
 
@@ -74,7 +66,7 @@ and also combines the tweet functionality from twitter into it. Find more about 
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/Hruthik-28/youtube-twitter.git
+   https://github.com/RajatBhopte/VideoVault.git
     ```
 
 2. **Install dependencies:**
@@ -97,6 +89,3 @@ and also combines the tweet functionality from twitter into it. Find more about 
 
 If you wish to contribute to this project, please feel free to contribute.
 
-## License
-
-This project is licensed under [ChaiAurCode](https://www.youtube.com/@chaiaurcode).
