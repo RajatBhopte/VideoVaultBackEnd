@@ -7,7 +7,7 @@ const app = new express();
 
 app.use(
     cors({
-        origin: "https://videovault-lime.vercel.app/",
+        origin: "https://videovault-lime.vercel.app",
         credentials: true
     })
 );
