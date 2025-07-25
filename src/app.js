@@ -7,7 +7,7 @@ const app = new express();
 
 const allowedOrigins = [
     "http://localhost:5173",
-    "https://videovault-lime.vercel.app"
+    "https://videovault-lime.vercel.app/"
 ];
 
 app.use(
