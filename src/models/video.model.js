@@ -6,44 +6,44 @@ const videoSchema = new Schema(
         videoFile: {
             type: {
                 url: String,
-                public_id: String,
+                public_id: String
             },
-            required: true,
+            required: true
         },
         thumbnail: {
             type: {
                 url: String,
-                public_id: String,
+                public_id: String
             },
-            required: true,
+            required: true
         },
         owner: {
             type: Schema.Types.ObjectId,
-            ref: "User",
+            ref: "User"
         },
         title: {
             type: String,
-            required: true,
+            required: true
         },
         description: {
             type: String,
-            required: true,
+            required: true
         },
         duration: {
             type: Number,
-            required: true,
+            required: true
         },
         views: {
             type: Number,
-            defaultValue: 0,
+            defaultValue: 0
         },
         isPublished: {
             type: Boolean,
-            defaultValue: false,
-        },
+            defaultValue: false
+        }
     },
     {
-        timestamps: true,
+        timestamps: true
     }
 );
 
