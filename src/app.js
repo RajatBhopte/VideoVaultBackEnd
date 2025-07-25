@@ -5,23 +5,13 @@ import morgan from "morgan";
 
 const app = new express();
 
-const allowedOrigins = [
-    "http://localhost:5173",
-    "https://videovault-lime.vercel.app/"
-];
-
 app.use(
     cors({
-        origin: function (origin, callback) {
-            if (!origin || allowedOrigins.includes(origin)) {
-                callback(null, true);
-            } else {
-                callback(new Error("Not allowed by CORS"));
-            }
-        },
+        origin: "https://videovault-lime.vercel.app/",
         credentials: true
     })
 );
+
 app.use(express.json({ limit: "50mb" }));
 app.use(express.urlencoded({ extended: true, limit: "50mb" }));
 app.use(express.static("public"));
