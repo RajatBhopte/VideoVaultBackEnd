@@ -6,6 +6,14 @@ dotenv.config({
     path: "./.env" // if giving prob try "./.env"
 });
 
+const cors = require("cors");
+app.use(
+    cors({
+        origin: "https://videovault-lime.vercel.app",
+        credentials: true
+    })
+);
+
 connectToDB()
     .then(() => {
         app.listen(process.env.PORT || 8000, () => {
